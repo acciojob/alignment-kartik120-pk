@@ -7,9 +7,13 @@
     <style>
         /* General table styling */
         table {
-            border: 1px solid black;
-            border-spacing: 1px;
-            padding: 1px;
+            border-collapse: collapse; /* Ensure borders collapse to avoid double borders */
+            width: 100%; /* Optional, adjust based on your preference */
+        }
+
+        td, th {
+            border: 1px solid black; /* Apply border to cells */
+            padding: 1px; /* Apply padding */
         }
 
         /* Background colors */
